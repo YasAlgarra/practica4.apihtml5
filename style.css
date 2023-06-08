@@ -1,0 +1,103 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #D8BFD8, #db8cdb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+#container {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+video {
+    width: 50%; 
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    outline: none; /* Eliminar el contorno predeterminado */
+  }
+
+  #play {
+    background: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  #play:hover {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.66);
+    text-shadow: 1px 1px 6px #df75ff;
+  }
+  
+  #pause {
+    background: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  #pause:hover {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.66);
+    text-shadow: 1px 1px 6px #df75ff;
+  }
+
+  #volumeUp {
+    background: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  #volumeUp:hover {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.66);
+    text-shadow: 1px 1px 6px #df75ff;
+  }
+
+  #volumeDown {
+    background: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  #volumeDown:hover {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.66);
+    text-shadow: 1px 1px 6px #df75ff;
+  }
+
+  #forward {
+    background: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  #forward:hover {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.66);
+    text-shadow: 1px 1px 6px #df75ff;
+  }
+
+  #backward {
+    background: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  #backward:hover {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.66);
+    text-shadow: 1px 1px 6px #df75ff;
+  }
